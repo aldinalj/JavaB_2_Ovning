@@ -1,7 +1,11 @@
 package com.aldina.demo;
 import com.aldina.demo.TestLists;
+import com.aldina.demo.Student;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import static com.aldina.demo.Student.studentList;
 
 public class Main {
 
@@ -33,7 +37,12 @@ public class Main {
 
         System.out.println(linkedListTest);
 
+        ArrayList<Student> students = studentList();
 
+        for (Student student : students) {
+            System.out.println("Name: " + student.name + " Age: " + student.age);
+
+        }
 
 
 

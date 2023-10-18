@@ -11,7 +11,8 @@ public class TestLists {
         return scoreList;
     }
     public List linkedListMethod() {
-        List<Integer> scoreList = new LinkedList<>();
+        LinkedList<Integer> scoreList = new LinkedList<>();
+
         return scoreList;
     }
 }
